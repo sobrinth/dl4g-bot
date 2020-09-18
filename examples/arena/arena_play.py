@@ -12,6 +12,7 @@ from jass.agents.agent_random_schieber import AgentRandomSchieber
 from jass.game.const import color_masks, card_strings
 from jass.game.game_observation import GameObservation
 from jass.game.rule_schieber import RuleSchieber
+from jass4fun.jass4fun_agent import Jass4FunAgent
 
 
 class MyAgent(Agent):
@@ -51,8 +52,8 @@ def main():
 
     # setup the arena
     arena = Arena(nr_games_to_play=1000, save_filename='arena_games')
-    player = AgentRandomSchieber()
-    my_player = MyAgent()
+    player = MyAgent()
+    my_player = Jass4FunAgent()
 
     arena.set_players(my_player, player, my_player, player)
     print('Playing {} games'.format(arena.nr_games_to_play))
