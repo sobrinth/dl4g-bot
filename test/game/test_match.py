@@ -2,8 +2,8 @@ import unittest
 import json
 import datetime
 
-from jass.game.match import JassMatch
-from jass.game.game_state import GameState
+from local_jass.game.match import JassMatch
+from local_jass.game.game_state import GameState
 
 
 class MatchestCase(unittest.TestCase):

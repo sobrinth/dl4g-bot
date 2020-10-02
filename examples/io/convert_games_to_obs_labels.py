@@ -7,13 +7,13 @@ import json
 import os
 import logging
 
-from jass.game.const import PUSH
-from jass.game.rule_schieber import RuleSchieber
+from local_jass.game.const import PUSH
+from local_jass.game.rule_schieber import RuleSchieber
 from logs.log_entry_file_generator import LogEntryFileGenerator
 
-from jass.game.game_state_util import state_from_complete_game, observation_from_state, state_for_trump_from_complete_game
-from jass.logs.game_log_entry import GameLogEntry
-from jass.logs.game_obs_action_log_entry import GameObsActionLogEntry
+from local_jass.game.game_state_util import state_from_complete_game, observation_from_state, state_for_trump_from_complete_game
+from local_jass.logs.game_log_entry import GameLogEntry
+from local_jass.logs.game_obs_action_log_entry import GameObsActionLogEntry
 
 """
 Tool for converting files that contain complete games into files that contain observations (features) 

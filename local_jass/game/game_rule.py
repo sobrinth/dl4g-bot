@@ -4,13 +4,13 @@
 #
 import numpy as np
 
-from jass.game.game_observation import GameObservation
-from jass.game.game_state import GameState
+from local_jass.game.game_observation import GameObservation
+from local_jass.game.game_state import GameState
 
 
 class GameRule:
     """
-    Class for implementing rules of the jass match. The class includes rules that depend not on the process (like
+    Class for implementing rules of the local_jass match. The class includes rules that depend not on the process (like
     how trump is determined), but only upon cards. Currently this includes to determine the valid cards to play
     in a trick, to determine the winner of a trick and the points of a trick.
 

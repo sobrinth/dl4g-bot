@@ -5,8 +5,8 @@
 from datetime import datetime
 from typing import List
 
-from jass.game.const import DATE_FORMAT
-from jass.game.game_state import GameState
+from local_jass.game.const import DATE_FORMAT
+from local_jass.game.game_state import GameState
 
 
 class GameLogEntry:

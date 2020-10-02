@@ -6,7 +6,7 @@ import numpy as np
 
 from typing import List, Iterable
 
-from jass.game.const import card_ids, card_strings
+from local_jass.game.const import card_ids, card_strings
 
 """
 Utilities

@@ -6,12 +6,12 @@
 import logging
 import numpy as np
 
-from jass.agents.agent import Agent
-from jass.arena.arena import Arena
-from jass.agents.agent_random_schieber import AgentRandomSchieber
-from jass.game.const import color_masks, card_strings
-from jass.game.game_observation import GameObservation
-from jass.game.rule_schieber import RuleSchieber
+from local_jass.agents.agent import Agent
+from local_jass.arena.arena import Arena
+from local_jass.agents.agent_random_schieber import AgentRandomSchieber
+from local_jass.game.const import color_masks, card_strings
+from local_jass.game.game_observation import GameObservation
+from local_jass.game.rule_schieber import RuleSchieber
 from jass4fun.jass4fun_agent import Jass4FunAgent
 
 
@@ -48,7 +48,7 @@ class MyAgent(Agent):
 
 def main():
     # Set the global logging level (Set to debug or info to see more messages)
-    logging.basicConfig(level=logging.WARNING)
+    logging.basicConfig(level=logging.WARN)
 
     # setup the arena
     arena = Arena(nr_games_to_play=1000, save_filename='arena_games')

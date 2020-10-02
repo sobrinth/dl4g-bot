@@ -16,9 +16,9 @@ import logging
 from json import JSONDecodeError
 from typing import List
 
-from jass.game.game_state import GameState
+from local_jass.game.game_state import GameState
 from logs.log_entry_file_generator import LogEntryFileGenerator
-from jass.logs.game_log_entry import GameLogEntry
+from local_jass.logs.game_log_entry import GameLogEntry
 
 
 class LogParserSwisslos:

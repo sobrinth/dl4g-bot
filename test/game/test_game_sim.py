@@ -1,12 +1,12 @@
 import unittest
 import numpy as np
 
-from jass.agents.agent_random_schieber import AgentRandomSchieber
-from jass.game.const import *
-from jass.game.game_sim import GameSim
-from jass.game.game_state import GameState
-from jass.game.game_util import deal_random_hand, get_cards_encoded
-from jass.game.rule_schieber import RuleSchieber
+from local_jass.agents.agent_random_schieber import AgentRandomSchieber
+from local_jass.game.const import *
+from local_jass.game.game_sim import GameSim
+from local_jass.game.game_state import GameState
+from local_jass.game.game_util import deal_random_hand, get_cards_encoded
+from local_jass.game.rule_schieber import RuleSchieber
 
 
 class GameSimTestCase(unittest.TestCase):

@@ -4,8 +4,8 @@
 #
 from datetime import datetime
 
-from jass.game.const import DATE_FORMAT
-from jass.game.game_observation import GameObservation
+from local_jass.game.const import DATE_FORMAT
+from local_jass.game.game_observation import GameObservation
 
 
 class GameObsActionLogEntry:
