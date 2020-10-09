@@ -1,10 +1,10 @@
 import logging
 import numpy as np
 
-from local_jass.agents.agent import Agent
-from local_jass.game.game_state import GameState
-from local_jass.game.rule_schieber import RuleSchieber
-from local_jass.game.const import PUSH, MAX_TRUMP, card_values, card_strings
+from jass.agents.agent import Agent
+from jass.game.game_state import GameState
+from jass.game.rule_schieber import RuleSchieber
+from jass.game.const import PUSH, MAX_TRUMP, card_values, card_strings
 
 
 class CheatingAgent(Agent):

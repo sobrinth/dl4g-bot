@@ -2,9 +2,9 @@
 #
 # Created by Thomas Koller on 24.08.18
 #
-from local_jass.game.game_state import GameState
+from jass.game.game_state import GameState
 
-from local_jass.game.const import NORTH, EAST, SOUTH, WEST
+from jass.game.const import NORTH, EAST, SOUTH, WEST
 
 
 class JassMatch:

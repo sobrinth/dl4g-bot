@@ -4,15 +4,15 @@
 #
 import numpy as np
 
-from local_jass.game.const import color_of_card, color_masks, J_offset, higher_trump, lower_trump, card_values, UNE_UFE, \
+from jass.game.const import color_of_card, color_masks, J_offset, higher_trump, lower_trump, card_values, UNE_UFE, \
     OBE_ABE, next_player, partner_player
-from local_jass.game.game_rule import GameRule
-from local_jass.game.game_state import GameState
+from jass.game.game_rule import GameRule
+from jass.game.game_state import GameState
 
 
 class RuleSchieber(GameRule):
     """
-    Class for implementing rules of the local_jass match for the variation for 'Schieber'. These are:
+    Class for implementing rules of the jass match for the variation for 'Schieber'. These are:
     - The match is played with trump
 
     """

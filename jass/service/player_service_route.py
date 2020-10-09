@@ -2,7 +2,7 @@
 #
 # Created by Ruedi Arnold on 16.01.2018
 # Changed to use blueprint, Thomas Koller on 12.10.2018
-# Changed to refactored local_jass-kit library
+# Changed to refactored jass-kit library
 #
 
 """
@@ -16,10 +16,10 @@ from http import HTTPStatus
 
 from flask import request, jsonify, Blueprint, current_app
 
-from local_jass.game.const import card_strings
-from local_jass.game.game_observation import GameObservation
+from jass.game.const import card_strings
+from jass.game.game_observation import GameObservation
 
-JASS_PATH_PREFIX = '/local_jass/players/'
+JASS_PATH_PREFIX = '/jass/players/'
 SELECT_TRUMP_PATH_PREFIX = '/action_trump'
 PLAY_CARD_PATH_PREFIX = '/action_play_card'
 SEND_INFO_PREFIX = '/game_info'

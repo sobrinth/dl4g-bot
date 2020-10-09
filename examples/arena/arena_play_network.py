@@ -5,9 +5,9 @@
 
 import logging
 
-from local_jass.agents.agent_by_network import AgentByNetwork
-from local_jass.arena.arena import Arena
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
+from jass.agents.agent_by_network import AgentByNetwork
+from jass.arena.arena import Arena
+from jass.agents.agent_random_schieber import AgentRandomSchieber
 
 
 def main():

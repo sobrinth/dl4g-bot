@@ -1,13 +1,13 @@
 import unittest
 from datetime import datetime
 
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
-from local_jass.game.const import NORTH, PUSH
-from local_jass.game.game_sim import GameSim
-from local_jass.game.game_util import deal_random_hand
-from local_jass.game.rule_schieber import RuleSchieber
-from local_jass.logs.game_log_entry import GameLogEntry
-from local_jass.logs.game_obs_action_log_entry import GameObsActionLogEntry
+from jass.agents.agent_random_schieber import AgentRandomSchieber
+from jass.game.const import NORTH, PUSH
+from jass.game.game_sim import GameSim
+from jass.game.game_util import deal_random_hand
+from jass.game.rule_schieber import RuleSchieber
+from jass.logs.game_log_entry import GameLogEntry
+from jass.logs.game_obs_action_log_entry import GameObsActionLogEntry
 
 
 class GameLogTestCase(unittest.TestCase):

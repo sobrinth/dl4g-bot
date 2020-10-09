@@ -4,9 +4,9 @@
 #
 import numpy as np
 
-from local_jass.game.const import next_player, partner_player
-from local_jass.game.game_observation import GameObservation
-from local_jass.game.game_state import GameState
+from jass.game.const import next_player, partner_player
+from jass.game.game_observation import GameObservation
+from jass.game.game_state import GameState
 
 
 def calculate_starting_hands_from_game(game: GameState) -> np.ndarray:

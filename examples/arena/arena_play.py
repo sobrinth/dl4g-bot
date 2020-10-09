@@ -6,13 +6,12 @@
 import logging
 import numpy as np
 
-from local_jass.agents.agent import Agent
-from local_jass.arena.arena import Arena
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
-from local_jass.game.const import color_masks, card_strings
-from local_jass.game.game_observation import GameObservation
-from local_jass.game.rule_schieber import RuleSchieber
-from jass4fun.jass4fun_agent import Jass4FunAgent
+from jass.agents.agent import Agent
+from jass.arena.arena import Arena
+from jass.game.const import color_masks, card_strings
+from jass.game.game_observation import GameObservation
+from jass.game.rule_schieber import RuleSchieber
+from dominik.jass4fun_agent import Jass4FunAgent
 
 
 class MyAgent(Agent):

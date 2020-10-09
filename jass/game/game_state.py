@@ -5,8 +5,8 @@
 import logging
 import numpy as np
 
-from local_jass.game.const import JASS_SCHIEBER, partner_player, next_player, card_ids
-from local_jass.game.game_util import convert_int_encoded_cards_to_str_encoded, \
+from jass.game.const import JASS_SCHIEBER, partner_player, next_player, card_ids
+from jass.game.game_util import convert_int_encoded_cards_to_str_encoded, \
     convert_one_hot_encoded_cards_to_str_encoded_list, convert_str_encoded_cards_to_int_encoded
 
 

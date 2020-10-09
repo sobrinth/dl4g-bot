@@ -4,8 +4,8 @@
 #
 import numpy as np
 
-from local_jass.arena.dealing_card_strategy import DealingCardStrategy
-from local_jass.game.game_util import deal_random_hand
+from jass.arena.dealing_card_strategy import DealingCardStrategy
+from jass.game.game_util import deal_random_hand
 
 
 class DealingCardRandomStrategy(DealingCardStrategy):

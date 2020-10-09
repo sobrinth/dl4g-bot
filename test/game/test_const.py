@@ -1,7 +1,7 @@
 import unittest
 
-from local_jass.game.const import *
-from local_jass.game.game_util import *
+from jass.game.const import *
+from jass.game.game_util import *
 
 
 class JassConstTestCase(unittest.TestCase):

@@ -4,15 +4,15 @@
 #
 import logging
 import numpy as np
-from local_jass.agents.agent import Agent
-from local_jass.game.const import PUSH, MAX_TRUMP, card_strings
-from local_jass.game.game_observation import GameObservation
-from local_jass.game.rule_schieber import RuleSchieber
+from jass.agents.agent import Agent
+from jass.game.const import PUSH, MAX_TRUMP, card_strings
+from jass.game.game_observation import GameObservation
+from jass.game.rule_schieber import RuleSchieber
 
 
 class AgentRandomSchieber (Agent):
     """
-    Randomly select actions for the match of local_jass (Schieber)
+    Randomly select actions for the match of jass (Schieber)
     """
     def __init__(self):
         # log actions
@@ -46,7 +46,7 @@ class AgentRandomSchieber (Agent):
         """
         Select randomly a card from the valid cards
         Args:
-            obs: The observation of the local_jass match for the current player
+            obs: The observation of the jass match for the current player
         Returns:
             card to play
         """

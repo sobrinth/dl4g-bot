@@ -12,11 +12,11 @@ setup(
     version="2.0.2",
     author="ABIZ HSLU",
     author_email="thomas.koller@hslu.ch",
-    description="Package for the match of local_jass",
+    description="Package for the match of jass",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="",
-    packages=find_namespace_packages(include=['local_jass.*']),
+    packages=find_namespace_packages(include=['jass.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",

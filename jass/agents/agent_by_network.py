@@ -6,11 +6,11 @@ import logging
 
 import requests
 
-from local_jass.agents.agent import Agent
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
-from local_jass.game.const import card_ids
-from local_jass.game.game_observation import GameObservation
-from local_jass.service.player_service_route import SEND_INFO_PREFIX, SELECT_TRUMP_PATH_PREFIX, PLAY_CARD_PATH_PREFIX
+from jass.agents.agent import Agent
+from jass.agents.agent_random_schieber import AgentRandomSchieber
+from jass.game.const import card_ids
+from jass.game.game_observation import GameObservation
+from jass.service.player_service_route import SEND_INFO_PREFIX, SELECT_TRUMP_PATH_PREFIX, PLAY_CARD_PATH_PREFIX
 
 
 class AgentByNetwork(Agent):

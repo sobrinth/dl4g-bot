@@ -9,15 +9,15 @@ from typing import List
 
 import numpy as np
 
-from local_jass.agents.agent import Agent
-from local_jass.arena.dealing_card_random_strategy import DealingCardRandomStrategy
-from local_jass.arena.dealing_card_strategy import DealingCardStrategy
-from local_jass.game.const import NORTH, EAST, SOUTH, WEST, DIAMONDS, MAX_TRUMP, PUSH, next_player
-from local_jass.game.game_observation import GameObservation
-from local_jass.game.game_sim import GameSim
-from local_jass.game.rule_schieber import RuleSchieber
-from local_jass.logs.game_log_entry import GameLogEntry
-from local_jass.logs.log_entry_file_generator import LogEntryFileGenerator
+from jass.agents.agent import Agent
+from jass.arena.dealing_card_random_strategy import DealingCardRandomStrategy
+from jass.arena.dealing_card_strategy import DealingCardStrategy
+from jass.game.const import NORTH, EAST, SOUTH, WEST, DIAMONDS, MAX_TRUMP, PUSH, next_player
+from jass.game.game_observation import GameObservation
+from jass.game.game_sim import GameSim
+from jass.game.rule_schieber import RuleSchieber
+from jass.logs.game_log_entry import GameLogEntry
+from jass.logs.log_entry_file_generator import LogEntryFileGenerator
 
 
 class Arena:

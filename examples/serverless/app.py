@@ -4,8 +4,8 @@
 #
 import logging
 
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
-from local_jass.service.player_service_app import PlayerServiceApp
+from jass.agents.agent_random_schieber import AgentRandomSchieber
+from jass.service.player_service_app import PlayerServiceApp
 
 
 def create_app():

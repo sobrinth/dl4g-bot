@@ -3,14 +3,14 @@ import json
 import unittest
 import numpy as np
 
-from local_jass.agents.agent_random_schieber import AgentRandomSchieber
-from local_jass.game.const import NORTH, PUSH
-from local_jass.game.game_observation import GameObservation
-from local_jass.game.game_sim import GameSim
-from local_jass.game.game_state import GameState
-from local_jass.game.game_state_util import observation_from_state, calculate_starting_hands_from_game, state_from_complete_game, state_for_trump_from_complete_game
-from local_jass.game.game_util import deal_random_hand
-from local_jass.game.rule_schieber import RuleSchieber
+from jass.agents.agent_random_schieber import AgentRandomSchieber
+from jass.game.const import NORTH, PUSH
+from jass.game.game_observation import GameObservation
+from jass.game.game_sim import GameSim
+from jass.game.game_state import GameState
+from jass.game.game_state_util import observation_from_state, calculate_starting_hands_from_game, state_from_complete_game, state_for_trump_from_complete_game
+from jass.game.game_util import deal_random_hand
+from jass.game.rule_schieber import RuleSchieber
 
 
 class MyTestCase(unittest.TestCase):

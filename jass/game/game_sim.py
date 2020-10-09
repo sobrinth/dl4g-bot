@@ -8,10 +8,10 @@
 import copy
 import numpy as np
 
-from local_jass.game.const import next_player, PUSH, partner_player, NORTH, SOUTH
-from local_jass.game.game_rule import GameRule
-from local_jass.game.game_state import GameState
-from local_jass.game.game_state_util import observation_from_state
+from jass.game.const import next_player, PUSH, partner_player, NORTH, SOUTH
+from jass.game.game_rule import GameRule
+from jass.game.game_state import GameState
+from jass.game.game_state_util import observation_from_state
 
 
 class GameSim:
@@ -91,7 +91,7 @@ class GameSim:
         Preconditions:
             self._state.nr_played_cards < 36
             self._state.hands[self.player,card] == 1
-            (trump selection done according to rules of the local_jass variation)
+            (trump selection done according to rules of the jass variation)
 
         Postconditions:
             see assert_invariants
